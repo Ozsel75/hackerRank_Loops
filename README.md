@@ -9,7 +9,7 @@ Hackerrank.com loop challenge
  * Complete the vowelsAndConsonants function.
  * Print your output using 'console.log()'.
  */
-  
+  <code>
 function vowelsAndConsonants(s) {
     let output ="";
     for(let i of s){
@@ -19,7 +19,7 @@ function vowelsAndConsonants(s) {
     console.log(output.trim());
 }
 
-  
+  </code>
   
   Objective
 
