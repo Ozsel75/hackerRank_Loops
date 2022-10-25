@@ -3,6 +3,24 @@ Hackerrank.com loop challenge
 ## this is how i solve the problem any help is welcome :)
 
 <p>
+  
+   
+/*
+ * Complete the vowelsAndConsonants function.
+ * Print your output using 'console.log()'.
+ */
+  
+function vowelsAndConsonants(s) {
+    let output ="";
+    for(let i of s){
+        "aeiou".includes(i) ? console.log(i) : output += "\n" + i;
+    }
+    
+    console.log(output.trim());
+}
+
+  
+  
   Objective
 
 In this challenge, we practice looping over the characters of string. Check out the attached tutorial for more details.
@@ -57,18 +75,5 @@ Each letter is printed on a new line.
 Then the vowels are printed in the same order as they appeared in .
 Then the consonants are printed in the same order as they appeared in .
   
-  
-/*
- * Complete the vowelsAndConsonants function.
- * Print your output using 'console.log()'.
- */
-function vowelsAndConsonants(s) {
-    let output ="";
-    for(let i of s){
-        "aeiou".includes(i) ? console.log(i) : output += "\n" + i;
-    }
-    
-    console.log(output.trim());
-}
-
+ 
 </p>
